@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    font-weight: normal;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+}
+ol, ul {
+    list-style: none;
+}
+body {
+    font-family: 'robotoregular', Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #1C2C40;
+    overflow-x: hidden;
+    font-weight: 400;
+    min-width: 320px;
+}
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+input,textarea,select{
+    font-family: "robotoregular", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #1C2C40;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-weight: 400;
+}
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+header {
+    padding: 20px 0;
+}
+header section.wrapper {
+
+}
+header section.wrapper nav {
+    text-align: center;
+}
+header section.wrapper nav h1 {
+    font-family: 'robotobold';
+    font-size: 52px;
+    /* color: #e3b55c; */
+}
+header section.wrapper nav h1 a {
+    color: #e3b55c;
+}
+#main-container {
+    padding: 20px 0;
+}
+#main-container section.wrapper {
+}
+#main-container section.wrapper div.text-display-container {
+    width: 100%;
+    height: 360px;
+    padding: 15px;
+    background: #cec6c6;
+    box-shadow: 1px 1px 6px 3px rgb(0 0 0 / 10%);
+}
+#main-container section.wrapper div.text-display-container div.status {
+    display: flex;
+    font-weight: bold;
+    font-size: 18px;
+}
+#main-container section.wrapper div.text-display-container div.status h3 {
+    color: #e3b55c;
+}
+#main-container section.wrapper div.text-display-container div.status span{
+    
+}
+#main-container section.wrapper div.text-display-container div.status span::before{
+    content: ':';
+    font-weight: 600;
+}
+#message-area {
+    padding: 20px 0;
+}
+#message-area section.wrapper {
+}
+#message-area section.wrapper div.status {
+    position: relative;
+}
+#message-area section.wrapper div.status span.type-status {
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    color: #8da895;
+}
+#message-area section.wrapper div.message-container {
+    height: 80px;
+    display: flex;
+}
+#message-area section.wrapper div.message-container div.message-box {
+    width: 80%;
+}
+#message-area section.wrapper div.message-container div.message-box textarea {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background: #f0f0f0;
+    border-radius: 20px;
+    color: #000;
+    resize: none;
+}
+#message-area section.wrapper div.message-container div.message-box textarea:focus{
+    border: 1px solid rgb(0 0 0 / 10%);
+}
+#message-area section.wrapper div.message-container div.send-box {
+    /*width: 20%;*/
+    padding: 0 10px;
+}
+#message-area section.wrapper div.message-container div.send-box button {
+    width: 100%;
+    height: 100%;
+    font-size: 32px;
+    font-weight: bold;
+    border-radius: 20px;
+    background: #f0f0f0;
+    padding: 15px;
+    cursor: pointer;
+}

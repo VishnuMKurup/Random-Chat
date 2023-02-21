@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+a {
+    color: #000;
+}
+.wrapper { 
+    width: 90%;
+	margin: 0 auto;
+	max-width:1400px;
+}
+#header { 
+    padding: 20px 0;
+}
+#header section.wrapper header { 
+    text-align: center;
+}
+#header section.wrapper header h1 { 
+    font-size: 43px;
+}
+#header section.wrapper header h1 a { 
+    color: #c4c249;
+    font-weight: bold;
+}
+#spotlight {  
+	padding: 50px 0;
+}
+#spotlight section.wrapper {  
+	text-align: center;
+}
+#spotlight section.wrapper h1 { 
+	text-align: center; 
+	font-size: 44px;
+	color: #cfb56d;
+}
+#spotlight section.wrapper div.features {  
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#spotlight section.wrapper div.features a {  
+	font-size: 23px;
+	padding: 10px;
+	width: 100px;
+	background: #415c7a;
+	color: #000;
+	border: 1px solid #415c7a;
+	margin-right: 20px;
+}
+#spotlight section.wrapper div.features a:last-child {
+	margin-right: 0;
+}
+#note {
+	padding: 50px;
+}
+#note p {
+	/* width: 50%; */
+	background: #335c4f;
+	color: #bfccdb;
+	padding: 20px;
+	margin: 0 auto;
+	font-size: 21px;
+	text-align: left;
+	position: relative;
+	height: 180px;
+}
+#note p span.author{
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	font-size: 16px;
+	color: #c4c249;
+}
+
+footer {
+	text-align: center;
+}
