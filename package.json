@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ea37/strangerchat01"
+    "url": "git+https://github.com/VishnuMKurup/Random-Chat"
   },
   "keywords": [
     "strangerchat"
   ],
-  "author": "Abhijith E A",
+  "author": "Vishnu MK",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Ea37/strangerchat01/issues"
+    "url": "https://github.com/VishnuMKurup/Random-Chat/issues"
   },
-  "homepage": "https://github.com/Ea37/strangerchat01#readme",
+  "homepage": "https://github.com/VishnuMKurup/Random-Chat#readme",
   "devDependencies": {
     "nodemon": "^2.0.15"
   },
